@@ -1,0 +1,312 @@
+@import url('https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bakbak+One&family=Play:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bakbak+One&family=Play:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bakbak+One&family=Oswald:wght@200..700&family=Play:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bakbak+One&family=Oswald:wght@200..700&family=Play:wght@400;700&family=Rowdies:wght@300;400;700&display=swap');
+
+body,html{
+    margin: 1%;
+       
+    
+}
+.container{
+    width: 1229px;
+    height: 543px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#login-Page{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    z-index:3 ;
+}
+.img{
+    z-index: 0;
+    position: absolute;
+    height: 95vh;
+}
+.img img{                                   
+    height: 100%;
+}
+/* {} */
+.login{
+    z-index: 1;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center ;
+}
+.name{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 210px;
+    height: 200px;
+    font-size: 16px;
+    font-family: "Play", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    gap: 1.5%;
+}
+.name input{
+    height: 16px;
+    width: 170px;
+    background-color: chartreuse;
+    font-family: "Play", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}
+.sub{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items:flex-start;
+}
+.sub button{
+    border-radius: 4px;
+    color: black;
+    background-color: grey;
+    box-shadow: 1px 1px 1px 1px black;
+}
+.sub button:hover{
+    background-color: blue;
+    color: aqua;
+}
+.nameError,.passError{
+    color: red;
+    font-size: 12px;
+}
+
+
+
+/* Dashboard */
+#dashboard{
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+}
+.upper_part{
+    display: flex;
+    justify-content:space-evenly;
+    width: 100%;
+    height: 20vh;
+    background-color: #313131;
+}
+#lhs{
+    height: 20vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.text1{
+    display:flex;
+    flex-direction: column;
+    width: 360px;
+}
+.text1 input{
+    height: 5vh;
+    border: solid 2px rgb(97, 97, 97);
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.text1 label{
+    font-size: 26px;
+    color: #fff;
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+#rhs{
+    
+    height: 20vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-family: "Bakbak One", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    color: white;
+  
+}
+.text{
+    background-color: #4dad5b;
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 4%;
+    border-radius: 8px;
+}
+.text2{
+    height: 60%;
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+   
+}
+#rhs label{
+    font-size: 23px;
+}
+#srchButton{
+    background-color: white;
+}
+#srchButton img{
+    width:32px;
+}
+
+#logout button{
+    font-size: 23px;
+    background-color: red;
+    font-family: 'Inter';
+    color: white;
+    border-radius: 20px;
+    padding: 9px;
+}
+.pokemon_part {
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+    gap: 10px;
+    justify-content: center;
+    overflow: scroll;
+}
+
+.pokemon-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    margin: 1%;
+    border: solid 2px lightblue;
+    box-shadow: 6px 7px 16px 8px lightblue;
+    
+}
+#lowerPart{
+    display: flex;
+    height: 100%;
+    gap: 2%;
+}
+
+.pokemon-image {
+    width: 230px;
+    height: 230px;
+    
+}
+.pokemon-item:hover{
+    transform: scale(1.1); 
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+
+.pokemon-name{
+    margin: 10px;
+    font-size: 16px;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+}
+
+.pokemon-details {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 65%;
+    padding: 20px;
+    background-color:orange;
+    border: 2px solid darkred;
+    border-radius: 10px;
+    margin-top: 20px;
+    display: none;
+}
+
+.pokemon-details-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    font-family: "Rowdies", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+.pokemon-details-content h1,h3,p{
+    height: 5px;
+}
+.pokemon-name{
+    text-transform: uppercase;
+}
+.pokemon-details-content h3{
+    text-transform: uppercase;
+}
+.pokemon-details-content img{
+    height: 160px;
+}
+
+@media only screen and (max-width: 768px) {
+    .container{
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+    #login-Page {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+        flex-direction: column;
+        background-size: cover; 
+        background-position: center; 
+    }
+
+    .img {
+        height: auto;
+        width: 100%;
+    }
+
+    .login {
+        position: relative;
+        width: 80%;
+        max-width: 400px;
+        background: rgba(255, 255, 255, 0.8); /* Optional: for better readability */
+        padding: 20px;
+        border-radius: 10px;
+    }
+
+    .name {
+        width: 100%;
+        height: auto;
+        font-size: 14px;
+    }
+
+    .name input {
+        width: 100%;
+        font-size: 14px;
+    }
+
+    .sub button {
+        font-size: 14px;
+    }
+    
+}
+
+

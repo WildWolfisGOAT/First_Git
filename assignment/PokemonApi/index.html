@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <link rel="stylesheet" href="index.css">
+    <div class="container">
+        <div id="login-Page">
+            <div class="img">
+                <img src="Pokedex.png" alt="">
+            </div>
+            <div class="login">
+                <div class="name">
+                    <label >
+                        Enter Name:
+                    </label>
+                    <input id="enter_name" type="text" placeholder="MegaCharizard" >
+                    <div class="nameError" style="display: none;">
+                        <label for="">Enter Correct Username</label>
+                    </div>
+                    <label >
+                        Enter PokePassword:
+                    </label>
+                    <input id="enter_pass" type="password" placeholder="123" >
+                    <div class="passError" style="display: none;">
+                        <label for="">Enter Correct Username</label>
+                    </div>
+                    <div class="sub">
+                        <button>Enter</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="dashboard">
+            <div class="upper_part">
+                <div id="lhs">
+                    <div class="text1">
+                        <label for="">Search By Name</label>
+                        <input type="text" id="searchBar">
+                    </div>
+                    <div class="text2">
+                        <button id="srchButton"><img src="download.png" alt=""></button>
+                    </div>
+                </div>
+                <div id="rhs">
+                    <div class="text">
+                        <label for="">Search for a Pokémon by name</label>
+                    </div>
+                    <div id="logout">
+                        <button>Log Out</button>
+                    </div>
+                </div>
+            </div>
+            <div id="lowerPart">
+                <div class="pokemon_part">
+                
+                </div>
+                <div class="pokemon-details">
+                
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
