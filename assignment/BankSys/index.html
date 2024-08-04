@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+        .container{
+            max-width: 700px;
+            margin: 40px auto;
+            background-color:darkslateblue;
+            padding: 20px;
+            gap: 20px;
+        }
+        div{
+            display: block;
+        }
+        .vijay{
+            display: flex;
+            justify-content: center;
+        }
+        .h2{
+            display: flex;
+            justify-content: center;
+        }
+        h1{
+            font-family: 'Inter';
+            font-size: 38px;
+            color: deepskyblue;
+        }
+        #upi{
+            font-family: 'Inter';
+            font-size: 30px;
+        }
+        #cc{
+            font-family: 'Inter';
+            font-size: 30px;
+        }
+        .button button{
+            font-size: 23px;
+            width: 188px;
+            font-family: 'Inter';
+            background-color: chartreuse;
+            border-radius: 20px;
+            padding: 2%;
+        }
+        .button{
+            display: flex;
+            justify-content: space-evenly;
+        }
+        .credit{
+            display: flex;
+            justify-content: center;
+        }
+        .credit button{
+            width: 188px;
+            font-size: 23px;
+            font-family: 'Inter';
+            background-color: chartreuse;
+            border-radius: 20px;
+        }
+        @media screen and (max-width:765px) {
+         .button{
+            flex-wrap: wrap;
+         }
+         .credit{
+            display: flex;
+            flex-wrap: wrap;
+            flex-basis: 2px;
+         }
+         h1{
+            font-size: 32px;
+         }
+            
+        }
+    </style>
+    <script src="index2.js"></script>    
+    <div class="container">
+        <div class="vijay">
+            <h1>Vijay Malaya Bank</h1>
+        </div>
+        <div class="h2"> 
+            <h2 id="upi">
+                UPI
+            </h2>
+        </div>
+        <div class="button">
+        <button onclick="Upi.upi_balance()">Show Balance</button>
+        <button onclick="Upi.upi_deposit()">Deposit Money</button>
+        <button onclick="Upi.upi_withdraw()">Withdraw Money</button>
+        <button onclick="Upi.upi_transaction()">See Transactions</button>
+    </div>
+    <div class="h2">
+        <h2 id="cc">Credit Card</h2>
+    </div>
+    
+    <div class="credit">
+            <button onclick="CreditCard.cc_limit()">Check Limit</button>
+            <button onclick="CreditCard.cc_buy()">Buy</button>
+            <button onclick="CreditCard.cc_paybill ()">Pay Bill</button>
+            <button onclick="CreditCard.cc_bal()">Current Balance</button>
+            <button onclick="CreditCard.cc_transactions()"> See Transactions</button>
+    </div>
+            
+    
+    </div>
+</body>
+</html>

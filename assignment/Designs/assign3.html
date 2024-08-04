@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+         nav{
+            margin: 5%;
+            display: flex;
+            justify-content: space-evenly;
+        }
+        h1{
+            font-family: 'Inter';
+            font-weight: 800;
+            font-size: 36px;
+            line-height: 40px;
+            text-align: center;
+            color: #111827;
+;
+        }
+        h5{
+            font-family: 'Inter';
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 28px;
+            text-align: center;
+            color: #6B7280;
+
+        }
+        .stats{
+            display: flex;
+            justify-content: space-around;
+            width: 896px;
+            height: 128px;
+            border-radius: 8px;
+            margin-left: 15%;
+            box-shadow: 0px 2px 4px #6B7280;
+        }
+        .stats h1{
+            color: #4F46E5;
+            width: 248px;
+            height: 48px;
+            font-weight: 800;
+            font-size: 48px;
+            line-height: 48px;
+            text-align: center;
+        }
+        .stats h5{
+            font-weight: 500;
+            width: 248px;
+            height: 24px;
+            font-size: 18px;
+            line-height: 24px;
+            text-align: center;
+            margin-top: -24px;
+            flex-wrap: wrap;
+        }
+        @media screen and (max-width:590px) {
+            .stats{
+                width: 100%;
+                width: 376px;
+                height: auto;
+                flex-wrap: wrap;
+                
+            }
+            .stats h5{
+               flex-wrap: wrap;
+            }
+        }
+    </style>
+    <nav>
+        <div>
+            <a href="index.html">Assign1</a>
+        </div>
+        <div>
+            <a href="assign2.html">Assign2</a>
+        </div>
+        <div>
+            <a href="assign3.html">Assign3</a>
+        </div>
+        <div>
+            <a href="assign4.html">Assign4</a>
+        </div>
+        <div>
+            <a href="assign5.html">Assign5</a>
+        </div>
+    </nav>
+    <h1>
+        Trusted by developers from over 80planets
+    </h1>
+    <h5>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellendus repellat laudantium.
+    </h5>
+    <div class="stats">
+        <div>
+            <h1>100%</h1>
+            <h5>Pepperoni</h5>
+        </div>
+        <div>
+            <h1>24/7</h1>
+            <h5>Delivery</h5>
+        </div>
+        <div>
+            <h1>100k</h1>
+            <h5>Calories</h5>
+        </div>
+    </div>
+</body>
+</html>

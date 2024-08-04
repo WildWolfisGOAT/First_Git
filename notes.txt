@@ -1,0 +1,72 @@
+Sources: https://developer.mozilla.org/en-US/docs/Learn
+
+
+null and undefined are datatypes and values at same time.
+
+Primitive data types are one which cant be further divided and can store singular values.
+
+nonprimitive datatypes/reference datatypes:
+1)objects
+2)Arrays 
+
+
+Operators:
+1)Arithmetic Operators - +,-,/,%
+2)Assignment  Operators - =,+=,/=,**
+3)Comparison Operators - <,>,<=,>=,==,!=, (special case) ===,!=,!==
+===,!== are cases of 'strict checking' and others are 'loosely typed checking'
+4)String Operators 
+5)Logical Operators - && , ^ , 
+
+Explore: list of funny java script example github
+
+
+
+
+Loops:
+1)for loop
+2)while loop
+3)do while loop
+
+
+Template literals/strings: ` ${}`
+
+Functions
+1)Named - function with name
+2)Anonymous - function without name
+3)Arrow Func - function keyword is not used
+
+Default Functions
+1) alert('This is alert');
+2)confirm('Are you sure you want to delete a file');
+3)prompt('Enter');
+
+Typcasting Methods
+parseInt() : converts float values to int values
+Number() : converts string to number so that user entered operations can be performed
+parseFloat() : converts to float values 
+
+23/06/2024
+Object can save multiple type of datatypes
+It is a keyvalue pair data storing entity
+Obj me values can be same but key should be unique
+To access obj (obj_name).(key_name)
+eg: car.name;
+
+key name can be single word or multiple word
+So to put them as key use '',eg: 'build name';
+console.log(car['build name']) is how u display or acess multipleword name
+
+NOTE: obj me declaration ke time key add krna jaruri nai badme bhi add krr skte
+
+GRIND: properties of obj,Nested Obj
+
+
+MDN strings and arrays methods learn kraicha
+
+DOM
+
+to get element by the tag name we use let h1=document.getElementByTagName('h1');
+console.log(h1[0]);
+
+h1[0].innerText ="Modified" se element of h1 tag changes

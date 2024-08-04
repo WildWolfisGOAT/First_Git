@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <link rel="stylesheet" href="index.css">
+    <div class="parent">
+        <div class="main_container">
+            <div class="log ">
+                <div class="head">
+                    <h1>Vijay Malya Bank</h1>
+                </div>
+                <div class="bottom">
+                    <div id="login">
+                        <label>Login: </Label>
+                                <div>
+                                <input type="text" id="login_inp" placeholder="admin">
+                                <p class="error">Please Enter Correct Login Id</p>
+                                </div>
+                    </div>  
+                    <div id="password">
+                        <label>Password: </label>
+                        <div>
+                        <input type="password" id="password_inp" placeholder="123">
+                        <p class="error">Please Enter Correct Password</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container hide">
+            <div class="heading">
+                <p>Vijay Malya Bank</p>
+            </div>
+            <div class="lower-part">
+                <div class="rest-frame">
+                </div>
+                <div class="separation">
+                    <div id="lhs">
+                        <div id="upi">
+                            <h1>UPI</h1>
+                        </div>
+                        <div class="top1">
+                            <div id="bal_div">
+                                <h1>Balance:</h1>
+                                <div id="bal_amt">
+    
+                                </div>
+                            </div>
+                        </div>
+                        <div class="interaction">
+                            <p>Money Deposit:</p>
+                            <div class="input">
+                                <input name="inp_depo" type="text" placeholder="Enter amount to Deposit" id="depo">
+                            </div>
+                            <button id="but1">Deposit</button>
+                        </div>
+                        <div class="interaction">
+                            <p>Money Withdrawal:</p>
+                            <div class="input">
+                                <input type="text" placeholder="Enter amount to withdraw"
+                                id="with">
+                            </div>
+                            
+                            <button id="but2">Withdraw</button>
+                        </div>
+                        <div class="trans">
+                            <div class="seetrans">
+                                <button id="trans_but1">See Transaction</button>
+                            </div>
+                            <div id="upi_trans_history"></div>
+                        </div>
+                    </div>
+                    <hr>
+                    <div id="rhs">
+                        <div id="Credit">
+                            <h1>Credit Card</h1>
+                        </div>
+                        <div class="top2">
+                           <div id="lim_div">
+                                <h1>Limit: </h1>
+                                <div id="lim_amt">
+                                    
+                                </div>
+                           </div>
+                           <div id="curBal_div">
+                                <h1>Current Balance:</h1>
+                                <div id="curBal_amt">
+    
+                                </div>
+                           </div>
+                        </div>
+                        <div class="interaction">
+                            <p>Buy Money:</p>
+                            <div class="input">
+                                <input type="text" placeholder="Enter amount to Buy" id="buy">
+                            </div>
+                            <button id="but3">Buy</button>
+                            <div class="interaction">
+                                <button id="but4">Pay Bill</button>
+                            </div>
+                        </div>
+                        <div class="trans">
+                            <div class="seetrans">
+                                <button id="trans_but2">See Transaction</button>
+                            </div>
+                            <div id="cc_trans_history"></div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>

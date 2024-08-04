@@ -1,0 +1,2 @@
+Vizbug yaad rkhna
+display: block se pura block occupy hota 
